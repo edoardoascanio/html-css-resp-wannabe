@@ -72,3 +72,32 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 420px){
+
+  #lezioni .row{
+    background-color: #e3e2af; 
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    margin:auto;  
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    margin: auto;
+  }
+
+  #why .row{
+    background-color: #e3e2af; 
+  }
+
+
+}
